@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f89ceea4aeec47e499da41211bad9594" Name="Diagram1" ZoomLevel="88">
+        <EntityTypeShape EntityType="glpModel.AA_Customer" Width="1.5" PointX="0.75" PointY="20.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_Customer_ProposalProvider" Width="1.5" PointX="8.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_CustomerProduct" Width="1.5" PointX="8.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_IssueCode" Width="1.5" PointX="1.5" PointY="50.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_IssueCodeDD" Width="1.5" PointX="10.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_Security" Width="1.5" PointX="1.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AA_SecuritySymbol" Width="1.5" PointX="3.75" PointY="49.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AM_Account" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AM_AccountGroup" Width="1.5" PointX="3" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AM_AccountHoldings" Width="1.5" PointX="10.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AM_CustodianSubAccount" Width="1.5" PointX="12.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.AM_SubAccount" Width="1.5" PointX="5.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PL_Policy" Width="1.5" PointX="3" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PL_PolicyIssue" Width="1.5" PointX="12.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PL_PolicyIssueRules" Width="1.5" PointX="14.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_Agenda" Width="1.5" PointX="6" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_AgendaItem" Width="1.5" PointX="0.75" PointY="43.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_AgendaSubItem" Width="1.5" PointX="3" PointY="44.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_AgendaSubItemRecommendations" Width="1.5" PointX="5.25" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_Ballot" Width="1.5" PointX="8.25" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_BallotAuditTrail" Width="1.5" PointX="10.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_BallotSubItemVotes" Width="1.5" PointX="12.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_BallotVotes" Width="1.5" PointX="10.5" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_Group" Width="1.5" PointX="12.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_GroupAccount" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_IssuerNotes" Width="1.5" PointX="14.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_LogicalBallot" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_Meeting" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_MissingBallot" Width="1.5" PointX="14.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_MissingBallotNote" Width="1.5" PointX="14.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_ProposalRecommendations" Width="1.5" PointX="8.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_ProposalRecommendationsProviders" Width="1.5" PointX="16.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_SubCustodianCutoffDate" Width="1.5" PointX="16.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_VoteExecutionNonVotingMarkets" Width="1.5" PointX="5.25" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_VoteExecutionProfile" Width="1.5" PointX="3" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_VoteExecutionVotingMarketException" Width="1.5" PointX="5.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_VotingInstructions" Width="1.5" PointX="3" PointY="36.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WatchList" Width="1.5" PointX="3" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WatchListAccounts" Width="1.5" PointX="5.25" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WatchListSecurity" Width="1.5" PointX="11.25" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WatchListUser" Width="1.5" PointX="5.25" PointY="40.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WorkflowNotes_AgendaPolicy" Width="1.5" PointX="11.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WorkflowNotes_Ballot" Width="1.5" PointX="6" PointY="37.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_WorkflowNotes_Meeting" Width="1.5" PointX="16.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.sysdiagram" Width="1.5" PointX="16.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="glpModel.PX_Shares" Width="1.5" PointX="10.5" PointY="29.375" IsExpanded="true" />
+        <AssociationConnector Association="glpModel.FK_AM_Account_AA_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PL_Policy_AA_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_VoteExecutionProfile_AA_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_VotingInstructions_AA_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_AgendaItem_AA_IssueCode" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_AA_SecuritySymbol_AA_Security" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Meeting_AA_Security" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WatchListSecurity_AA_Security" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_AM_SubAccount_AM_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Ballot_AM_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_GroupAccount_AM_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WatchListAccounts_AM_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_GroupAccount_AM_AccountGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_AgendaSubItemRecommendations_PL_Policy" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_ProposalRecommendations_PL_Policy" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WorkflowNotes_AgendaPolicy_PL_Policy" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Agenda_PX_Meeting" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_AgendaItem_PX_Agenda" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Ballot_PX_Agenda" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WorkflowNotes_AgendaPolicy_PX_Agenda" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_AgendaSubItem_PX_AgendaItem" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_ProposalRecommendations_PX_AgendaItem" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_AgendaSubItemRecommendations_PX_AgendaSubItem" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Ballot_PX_LogicalBallot" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Ballot_PX_WorkflowNotes_Ballot" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_BallotAuditTrail_PX_Ballot" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_BallotVotes_PX_Ballot" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_Shares_PX_Ballot" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_BallotSubItemVotes_PX_BallotVotes" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_VoteExecutionNonVotingMarkets_PX_VoteExecutionProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_VoteExecutionVotingMarketException_PX_VoteExecutionProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WatchListAccounts_PX_WatchList" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WatchListSecurity_PX_WatchList" ManuallyRouted="false" />
+        <AssociationConnector Association="glpModel.FK_PX_WatchListUser_PX_WatchList" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
