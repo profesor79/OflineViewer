@@ -46,6 +46,7 @@ namespace OflineViewer
         public Nullable<bool> EDIIssuerNameOverride { get; set; }
     
         public virtual ICollection<AA_SecuritySymbol> AA_SecuritySymbol { get; set; }
+        
         public virtual ICollection<PX_Meeting> PX_Meeting { get; set; }
         public virtual ICollection<PX_WatchListSecurity> PX_WatchListSecurity { get; set; }
     }

@@ -18,6 +18,7 @@ namespace OflineViewer
         public glpEntities()
             : base("name=glpEntities")
         {
+    	 ((IObjectContextAdapter)this).ObjectContext.CommandTimeout = 15;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

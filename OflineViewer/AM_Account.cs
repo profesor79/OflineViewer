@@ -21,6 +21,8 @@ namespace OflineViewer
             this.PX_GroupAccount = new HashSet<PX_GroupAccount>();
             this.PX_WatchListAccounts = new HashSet<PX_WatchListAccounts>();
         }
+    
+        public int AccountID { get; set; }
         public int CustomerID { get; set; }
         public string CustomerAccountNumber { get; set; }
         public string CustomerAccountName { get; set; }
