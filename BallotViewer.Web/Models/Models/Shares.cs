@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct Shares
+    public class Shares
     {
         public int BallotId { get; set; }
         public int CustomerId { get; set; }
@@ -19,6 +19,4 @@ namespace BallotViewer.Web.Models.Models
         public DateTime LastModifiedDate { get; set; }
         public DateTime CreatedDate { get; set; }
     }
-
-
 }

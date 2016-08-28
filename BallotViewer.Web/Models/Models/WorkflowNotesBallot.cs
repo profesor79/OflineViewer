@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct WorkflowNotesBallot
+    public class WorkflowNotesBallot
     {
         public int BallotId { get; set; }
         public string Note { get; set; }

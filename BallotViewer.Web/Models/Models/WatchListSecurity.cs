@@ -1,6 +1,6 @@
 ﻿namespace BallotViewer.Web.Models.Models
 {
-    public struct WatchListSecurity
+    public class WatchListSecurity
     {
         public int SecurityId { get; set; }
         public int WatchListId { get; set; }

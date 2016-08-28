@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 namespace BallotViewer.Web.Models.Models
 {
     [BsonIgnoreExtraElements]
-    public struct BallotAuditTrail
+    public class BallotAuditTrail
     {
         public int BallotAuditTrailId { get; set; }
         public int BallotId { get; set; }
@@ -18,7 +18,7 @@ namespace BallotViewer.Web.Models.Models
         public decimal BallotSharesOnLoan { get; set; }
         public string ProposalVotes { get; set; }
         public string DirectorVotes { get; set; }
-        public DateTime InstructedDate { get; set; }
+        public DateTime? InstructedDate { get; set; }
         public int LogicalBallotId { get; set; }
         public bool NonStandardVote { get; set; }
         public int InstructedBy { get; set; }

@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct WatchList
+    public class WatchList
     {
         public int WatchListId { get; set; }
         public int CustomerId { get; set; }

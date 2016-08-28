@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct BallotAggregated
+    public class BallotAggregated
     {
         public ObjectId _id { get; set; }
         //these need to be ignored in base mapping

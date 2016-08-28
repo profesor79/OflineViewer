@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct Ballot2
+    public class Ballot2
     {
         public int BallotId { get; set; }
         public string BallotVoteIndicatorCode { get; set; }
@@ -70,7 +70,7 @@ namespace BallotViewer.Web.Models.Models
         public ICollection<Shares> PxShares { get; set; }
     }
 
-    public struct Ballot
+    public class Ballot
 
 
     {

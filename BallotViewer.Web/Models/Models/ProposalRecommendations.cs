@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct ProposalRecommendations
+    public class ProposalRecommendations
     {
         public int ProposalRecommendationId { get; set; }
         public int PolicyId { get; set; }

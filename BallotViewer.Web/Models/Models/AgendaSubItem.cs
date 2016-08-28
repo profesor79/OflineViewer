@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct AgendaSubItem
+    public class AgendaSubItem
     {
         public int AgendaSubItemId { get; set; }
         public string AgendaSubItemText { get; set; }

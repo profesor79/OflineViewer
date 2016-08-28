@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct Policy
+    public class Policy
     {
         public int PolicyID { get; set; }
         public string PolicyTag { get; set; }

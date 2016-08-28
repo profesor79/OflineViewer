@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct Customer
+    public class Customer
     {
         public int CustomerID { get; set; }
         public string CustomerName { get; set; }
@@ -59,7 +59,7 @@ namespace BallotViewer.Web.Models.Models
 
 
         public ICollection<Policy> PL_Policy { get; set; }
-        //public  ICollection<PX_VoteExecutionProfile> PX_VoteExecutionProfile { get; set; }
         //public  ICollection<PX_VotingInstructions> PX_VotingInstructions { get; set; }
+        //public  ICollection<PX_VoteExecutionProfile> PX_VoteExecutionProfile { get; set; }
     }
 }

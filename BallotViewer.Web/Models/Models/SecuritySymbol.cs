@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct SecuritySymbol
+    public class SecuritySymbol
     {
         public int SecuritySymbolId { get; set; }
         public int SecurityId { get; set; }

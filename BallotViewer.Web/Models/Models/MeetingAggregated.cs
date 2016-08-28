@@ -2,7 +2,7 @@
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct MeetingAggregated
+    public class MeetingAggregated
     {
         public int MeetingId { get; set; }
         public string JobNumber { get; set; }

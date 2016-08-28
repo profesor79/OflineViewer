@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BallotViewer.Web.Models.Models
 {
-    public struct Meeting
+    public class Meeting
     {
         public int MeetingId { get; set; }
         public string JobNumber { get; set; }
