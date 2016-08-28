@@ -1,0 +1,15 @@
+﻿@model BallotViewer.Web.Models.OfflineBallotViewModel
+
+@{
+    ViewBag.Title = "Test";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+
+@foreach (var b in Model.BallotsAggregated)
+{
+    @Html.DisplayForModel(b)
+}
+
+<p>Use this area to provide additional information.</p>
