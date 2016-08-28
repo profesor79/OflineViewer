@@ -1,19 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using MongoDB.Bson.Serialization.Attributes;
+using System.Runtime.Serialization;
 
 namespace BallotViewer.Web.Models
 {
-    [BsonIgnoreExtraElements]
+    [DataContract]
     public class Ballot2
     {
+        [DataMember]
         public int BallotId { get; set; }
+
+        [DataMember]
         public string BallotVoteIndicatorCode { get; set; }
+
+        [DataMember]
         public DateTime VoteDate { get; set; }
+
+        [DataMember]
         public string ControlNumberKey { get; set; }
+
+        [DataMember]
         public string BallotStatusCode { get; set; }
+
+        [DataMember]
         public int AccountId { get; set; }
+
+        [DataMember]
         public decimal NoOfShares { get; set; }
+
         public string ClassOfStockCode { get; set; }
         public int AgendaId { get; set; }
         public string InstitutionId { get; set; }

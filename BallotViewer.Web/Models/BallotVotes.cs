@@ -9,7 +9,7 @@ namespace BallotViewer.Web.Models
         public int BallotId { get; set; }
         public int AgendaItemId { get; set; }
         public string ActualVoteCode { get; set; }
-        public string VotingInclassions { get; set; }
+        public string VotingInstructions { get; set; }
         public int LastModifiedBy { get; set; }
         public DateTime LastModifiedDate { get; set; }
         public byte[] ConcurrencyTmstp { get; set; }

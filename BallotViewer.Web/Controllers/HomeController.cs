@@ -14,6 +14,8 @@ namespace BallotViewer.Web.Controllers
             var collection = database.GetCollection<BallotAggregated>("collectionB6");
             var ballots = collection.AsQueryable().Take(20).ToList();
             var model = new OfflineBallotViewModel(ballots);
+            model.BallotAggregated = ballots.First();
+
             return View(model);
         }
 

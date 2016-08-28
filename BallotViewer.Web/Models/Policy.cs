@@ -1,9 +1,7 @@
 ﻿using System;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace BallotViewer.Web.Models
 {
-    [BsonIgnoreExtraElements]
     public class Policy
     {
         public int PolicyID { get; set; }
@@ -26,8 +24,8 @@ namespace BallotViewer.Web.Models
         public DateTime? LastCriticalChangeTmstp { get; set; }
         public int MajorVersion { get; set; }
         public bool IsConservative { get; set; }
-        public bool IsTNAInclassable { get; set; }
-        public bool IsZeroSharesInclassable { get; set; }
+        public bool IsTNAInstructable { get; set; }
+        public bool IsZeroSharesInstructable { get; set; }
         public string SWOPDefaultDirectiveCode { get; set; }
     }
 }

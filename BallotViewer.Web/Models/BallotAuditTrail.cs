@@ -16,9 +16,9 @@ namespace BallotViewer.Web.Models
         public decimal BallotSharesOnLoan { get; set; }
         public string ProposalVotes { get; set; }
         public string DirectorVotes { get; set; }
-        public DateTime InclassedDate { get; set; }
+        public DateTime InstructedDate { get; set; }
         public int LogicalBallotId { get; set; }
         public bool NonStandardVote { get; set; }
-        public int InclassedBy { get; set; }
+        public int InstructedBy { get; set; }
     }
 }

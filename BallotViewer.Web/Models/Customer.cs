@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace BallotViewer.Web.Models
 {
-    [BsonIgnoreExtraElements]
     public class Customer
     {
         public int CustomerID { get; set; }
@@ -61,7 +59,7 @@ namespace BallotViewer.Web.Models
 
 
         public ICollection<Policy> PL_Policy { get; set; }
-        //public  ICollection<PX_VotingInclassions> PX_VotingInclassions { get; set; }
+        //public  ICollection<PX_VotingInstructions> PX_VotingInstructions { get; set; }
         //public  ICollection<PX_VoteExecutionProfile> PX_VoteExecutionProfile { get; set; }
     }
 }
