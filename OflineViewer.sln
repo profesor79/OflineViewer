@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OflineViewer", "OflineViewe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BallotViewer.Web", "BallotViewer.Web\BallotViewer.Web.csproj", "{1890211F-79C2-4F37-9A73-5075E71E29D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelConverter", "ModelConverter\ModelConverter.csproj", "{11366B29-2D1B-44FC-961F-5F43F29F3812}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{1890211F-79C2-4F37-9A73-5075E71E29D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1890211F-79C2-4F37-9A73-5075E71E29D9}.Release|x64.ActiveCfg = Release|Any CPU
 		{1890211F-79C2-4F37-9A73-5075E71E29D9}.Release|x64.Build.0 = Release|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Debug|x64.Build.0 = Debug|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Release|x64.ActiveCfg = Release|Any CPU
+		{11366B29-2D1B-44FC-961F-5F43F29F3812}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
